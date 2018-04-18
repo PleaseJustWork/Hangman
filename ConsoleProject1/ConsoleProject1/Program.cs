@@ -1,6 +1,6 @@
 ﻿// File/Project Prolog
-// Name:     <PUT YOUR NAME HERE>
-// Period:   <PUT YOUR PERIOD HERE>
+// Name:     Jacob Johnson & Alicia Phurisat
+// Period:   A4
 // Username: phuriali000
 // Project:  ConsoleProject1
 // Date:     4/18/2018 1:37:21 PM
