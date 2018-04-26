@@ -2,7 +2,7 @@
 // Name:     Jacob Johnson & Alicia Phurisat
 // Period:   A4
 // Username: phuriali000
-// Project:  ConsoleProject1
+// Project:  
 // Date:     4/18/2018 1:37:21 PM
 //
 // I declare that the following code was written by me or provided 
@@ -12,6 +12,7 @@
 // ---------------------------------------------------------------------------
 
 using System;
+using System.Collections.Generic;
 
 namespace ConsoleProject1
 {
@@ -20,7 +21,7 @@ namespace ConsoleProject1
         static void Main(string[] args)
         {
             // Your code goes below here
-
+            List<string> Wordbank = new List<string> { "food","pinecone","China","left","interior","rat","fur", "supercalifragilisticexpialidocious" };
             // Your code goes above here
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
