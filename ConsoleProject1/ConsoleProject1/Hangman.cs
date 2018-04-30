@@ -22,30 +22,13 @@ namespace ConsoleProject1
         {
             // Your code goes below here
 
-            List<string> Wordbank = new List<string> { "food","pinecone","China","purple","interior","rat","fur", "supercalifragilisticexpialidocious" };
-            //Word choser *
-                Random random = new Random();
-                int x = random.Next(0, 8);
+            Console.WriteLine("welcome to Hangman!");
+            Console.WriteLine("Push any number from 0 - 9 to choose your word!");
 
-                Console.WriteLine(Wordbank[x]);
-            //*
-
-            
+            Console.ReadLine();
 
 
-            //number of lives
-            int numLives = 7;
-            //-1 whenever word guess is wrong
-
-
-            //guessing word:
-            //print out how word length
-            //test word 
-            //if (guess == wordchosen) == do stuff or test
-
-
-            Console.WriteLine(Wordbank[x]);
-            //you win
+            List<string> Wordbank = new List<string> { "food","pinecone","China","left","interior","rat","fur", "supercalifragilisticexpialidocious", "technology","colorado" };
 
             // Your code goes above here
             Console.WriteLine("Press any key to exit.");
