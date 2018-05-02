@@ -25,7 +25,7 @@ namespace ConsoleProject1
             List<string> Wordbank = new List<string> { "food","pinecone","China","purple","interior","rat","fur", "supercalifragilisticexpialidocious" };
             //Word choser *
                 Random random = new Random();
-                int x = random.Next(0, 8);
+                int x = random.Next(8);
 
                 Console.WriteLine(Wordbank[x]);
             //*
